@@ -1,1 +1,1 @@
-Spotify needs to fix it's algorithm.
+Spotify needs to fix it's algorithm. Immediately.
