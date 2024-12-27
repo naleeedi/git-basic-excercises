@@ -1,0 +1,1005 @@
+   98  apt list --upgradable
+   99  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+  100  sudo apt install -y nodejs
+  101  sudo apt remove libnode-dev
+  102  sudo apt install -y nodejs
+  103  node -v
+  104  node task1.js
+  105  --l
+  106  ls -a
+  107  git stats
+  108  git status
+  109  git init
+  110  touch README.md
+  111  ls-a
+  112  ls -a
+  113  git stats
+  114  git status
+  115  git log
+  116  ls -a
+  117  git status
+  118  git log
+  119  git add
+  120  git status
+  121  git init
+  122  ls -a
+  123  README.md
+  124  git status
+  125  cd git-basic-exercises
+  126  ls -a
+  127  .git
+  128  node .git
+  129  cd .git
+  130  ls-a
+  131  ls -a
+  132  git status
+  133  git log
+  134  git add
+  135  dir git-basic-exercises
+  136  /mnt/c/Users/Naledi Shoko/git-basic-exercises/
+  137  dir /mnt/c/Users/Naledi Shoko/git-basic-exercises/.git
+  138  git commit -m
+  139  basic
+  140  cd git-basic-exercises
+  141  cd -
+  142  ls -a
+  143  npm install
+  144  git init
+  145  ls -a
+  146  git status
+  147  touch README.md
+  148  ls -a
+  149  git init
+  150  ls -a
+  151  git log
+  152  git status
+  153  ls -a
+  154  git status
+  155  .git status
+  156  git init
+  157  git log
+  158  git add README.md
+  159  git statu
+  160  git status
+  161  git commit -m "initial commit"
+  162  git log
+  163  q
+  164  nano README.md
+  165  cat README.md
+  166  git status
+  167  second commit
+  168  cat README.md
+  169  git status
+  170  git add README.md
+  171  git status
+  172  second commit
+  173  cat README.md
+  174  nano README.md
+  175  cat README.md
+  176  git commit -m "second commit"
+  177  git log
+  178  ls -a
+  179  git commit - "third commit"
+  180  git status
+  181  git add README.md
+  182  git status
+  183  git commit -m "third commit"
+  184  git log
+  185  git checkout
+  186  git checkout commit d30c7fe014a3f65a3fe752896194966a6366ca
+  187  git log
+  188  git checkout commit d30c7fe014a3f65a3fe752896194966a6366ca
+  189  git checkout commit d30c7fe014a3f65a3fe752896194966a6366caf4
+  190  cat README.md
+  191  git checkout main
+  192  cat README.md
+  193  git branches
+  194  git branch
+  195  milkshake-flavours
+  196  git branch
+  197  git branch milkshake-flavours
+  198  git branch
+  199  cd milkshake-flavours
+  200  git init
+  201  ls -a
+  202  git log
+  203  git checkout master
+  204  git checkout milkshake-flavours
+  205  nano milkshakes.md
+  206  cat milkshakes.md
+  207  git status
+  208  git add milkshake-flavours
+  209  git add milkshakes.md
+  210  git status
+  211  git add
+  212  git add milkshake
+  213  git add milkshakes.md
+  214  git status
+  215  git log
+  216  git init
+  217  ls -a
+  218  touch milkshakes.md
+  219  git status
+  220  git commit -m "initial commit"
+  221  cat milkshakes.md
+  222  git log
+  223  git branch master
+  224  git branch
+  225  add initial history
+  226  git branch
+  227  touch history
+  228  git branch
+  229  git branch main
+  230  git branch master
+  231  git lo
+  232  git log
+  233  git add history
+  234  git status
+  235  git branch
+  236  git commit -m histroy
+  237  git branch -d histroy
+  238  git push origin branch-histroy --force
+  239  git revert histroy
+  240  git status
+  241  git branch
+  242  git revert main
+  243  git status
+  244  git branch
+  245  ls -a
+  246  cat milkshakw-flavours
+  247  flavours.md
+  248  git checkout flavours
+  249  git checkout master
+  250  git status
+  251  git log
+  252  git checkout milkshake-flavpurs
+  253  git checkout milkshake-flavours
+  254  git branch
+  255  git status
+  256  git branch
+  257  nano flavours.md
+  258  read flavours.md
+  259  cat flavours.md
+  260  git commit -m "inital commit"
+  261  git log
+  262  git add flavours.md
+  263  cat flavours.md
+  264  git commit -m "inital commit"
+  265  git checkout main
+  266  cat README.me
+  267  cat README.md
+  268  cat read flavours.md
+  269  git checkout milkshake-flavours
+  270  cat flavours.md
+  271  added initial flavours
+  272  git commit initial flavourss
+  273  git commit initial flavours
+  274  git status
+  275  git add flavours.md
+  276  git status
+  277  git add flavours.md
+  278  git status
+  279  touch flavours.md
+  280  cat flavours.md
+  281  git status
+  282  git checkout milkshake-flavours
+  283  git commit -m flavours.md
+  284  git commit -m flavours.md to milkshake-flavours branch
+  285  git commit -m "Add flavours.md to milkshake-flavours branch"
+  286  git ls-files
+  287  git add flavours.md
+  288  git commit -m "Add flavours.md to milkshake-flavours branch"
+  289  git add .
+  290  git branch
+  291  git milkshake-flavours
+  292  git commit -m flavours.md
+  293  git branch
+  294  cat flavours.md
+  295  git status
+  296  git ls-files
+  297  git status
+  298  ls -a
+  299  git log
+  300  git add flavours.md
+  301  git status
+  302  git add flavours.md
+  303  git commit -m "initial commit"
+  304  ls -a
+  305  git branch
+  306  git branch milkshake-flavours
+  307  git branch -m milkshake-flavours
+  308  git branch
+  309  touch flavours.md
+  310  ls -a
+  311  git stats
+  312  git status
+  313  git add flavours.md
+  314  git commit -m flavours.md
+  315  git branch
+  316  git checkout milkshake-flavours
+  317  git status
+  318  ls flavours. md
+  319  cat .gitignore
+  320  git ls-files
+  321  git diff
+  322  git add flavours.md
+  323  git commit -m
+  324  git commit -m flavours.md
+  325  git add flavours.md
+  326  git stats
+  327  git status
+  328  ls -a
+  329  commit add flavours.md
+  330  commit flavours.md
+  331  git init
+  332  git branhc
+  333  git branch
+  334  git log
+  335  git add flavours.md
+  336  git commit -m "inital commit"
+  337  ls -a
+  338  git status
+  339  touch flavours.md
+  340  ls-a
+  341  ls -a
+  342  git log
+  343  git add flavours.md
+  344  cat flavours.md
+  345  git status
+  346  git add flavours.md
+  347  git status
+  348  git branch
+  349  git branch milkshake-flavours
+  350  git add flavours.md
+  351  git log
+  352  git status
+  353  ls -a
+  354  branch flavours.md
+  355  git init
+  356  ls -a
+  357  git log
+  358  git status
+  359  touch flavours.md
+  360  ls -a
+  361  git add flavours.md
+  362  git status
+  363  git add "flavours.md"
+  364  git stats
+  365  git status
+  366  git log
+  367  revert commit
+  368  git revert commit 9a75719b7029b7d6b4d4778c6d8d2cacc98c2238
+  369  git rever <commit 9a75719b7029b7d6b4d4778c6d8d2cacc98c2238>
+  370  git revert <commit-9a75719b7029b7d6b4d4778c6d8d2cacc98c2238>
+  371  git status
+  372  git push origin milkshake-flavours
+  373  branch
+  374  git branch
+  375  git reset
+  376  git status
+  377  --quiet
+  378  reset.quiet
+  379  git add flavours.md
+  380  git status
+  381  git diff flavours.md
+  382  git add flavours.md
+  383  git status
+  384  git checkout milkshakes-flavours
+  385  git checkout milkshake-flavours
+  386  git add flavours.md
+  387  git check-ignore -v flavours.md
+  388  git diff --check
+  389  git rm --cached flavours.md
+  390  git add flavours.md
+  391  git status
+  392  git init
+  393  git branch 
+  394  git branch milkshake-flavours
+  395  quit
+  396  node task1.js
+  397  -a
+  398  --
+  399  -
+  400  cd . .
+  401  cd "naleeedi@DESKTOP-SM5UV23:/mnt/c/Users/Naledi Shoko"
+  402  cd ~
+  403  sudo apt install -y nodejs
+  404  node task1.js
+  405  npm -v
+  406  cd "C:\Users\Naledi Shoko\umuzi_work"
+  407  dir umuzi_work
+  408  cd /mnt/c/Users/Naledi\ Shoko/umuzi_work
+  409  taskk1.js
+  410  node task1.js
+  411  git status
+  412  ;s -a
+  413  ls -a
+  414  ~a
+  415  exit
+  416  dir master
+  417  pwd
+  418  cd /mnt/c/Users/Naledi\ Shoko/umuzi_work
+  419  git status
+  420  ls -a
+  421  cd /mnt/c/Users/Naledi\ Shoko/umuzi 2024
+  422  cd "C:\Users\Naledi Shoko\git-basic-exercises"
+  423  cd C:\Users\Naledi Shoko\git-basic-exercises
+  424  cd "C:\Users\Naledi Shoko\git-basic-exercises"
+  425  cd /mnt/c/Users/Naledi\ Shoko/git-basic-exercises
+  426  ls -a
+  427  cat flavours.md
+  428  del flavours.md
+  429  branch
+  430  git branch
+  431  cd milkshake-flavours
+  432  rm flavours.md
+  433  ls -a
+  434  rm task1.js.save
+  435  rm test.js
+  436  ls -a
+  437  rm . .
+  438  rm package-lock.json
+  439  ls -a
+  440  git init
+  441  ls -a
+  442  git status
+  443  git touch flavours.md
+  444  touch flavours.md
+  445  nano flavours.md
+  446  ls -a
+  447  git status
+  448  git  log
+  449  nano flavours.md
+  450  git add flavours.md
+  451  git status
+  452  git commit -m "initial commit"
+  453  nano flavours.md
+  454  cat flavours.md
+  455  git status
+  456  git add flavours.md
+  457  git commit -m "initial commit"
+  458  git log
+  459  git checkout commit 230ee905e595d3ae7c7b8f0b17447e6b4429b9bd 
+  460  git checkout 230ee905e595d3ae7c7b8f0b17447e6b4429b9bd 
+  461  cat flavours.md
+  462  git checkout milkshake-flavours
+  463  ls -a
+  464  git log
+  465  git branch
+  466  git add flavours.md
+  467  added initial flavours
+  468  git add flavours.md
+  469  git status
+  470  git add flavours.md
+  471  ls -a
+  472  git log
+  473  touch flavours.md
+  474  nano flavours.md
+  475  git add flavours.md
+  476  git status
+  477  git restore flavours.md
+  478  ls-a
+  479  ls -a
+  480  nano flavours.md
+  481  git commit "second commit"
+  482  git commit -m "second commit"
+  483  git commit -m "initial commit"
+  484  cat flavours.md
+  485  git status
+  486  git log
+  487  git checkout 230ee905e595d3ae7c7b8f0b17447e6b4429b9bd
+  488  git checkout 5d22a1ffdf868b11c732fe149e23063adaa84f68
+  489  git add .
+  490  git status
+  491  git add flacours.md
+  492  git add flavours.md
+  493  git log
+  494  git commit -m flavours.md
+  495  git status
+  496  git checkout milkshake-flavours
+  497  git commit -m flavours.md
+  498  git add .
+  499  git statis
+  500  git status
+  501  git add .
+  502  git commit -m
+  503  git commit -m "flavours.md
+q
+git branch
+git push origin milkshake-flavours
+git reset --soft HEAD~1
+
+  504  cat flavours.md
+  505  git reset --soft HEAD~1
+  506  git branch
+  507  git commit -m flavours.md
+  508  ls -a
+  509  git status
+  510  git log
+  511  git branch saved-commit ab6b207b2cf7741770355fb2a1dc3f66dd9dd7a1
+  512  git status
+  513  git checkout ab6b207b2cf7741770355fb2a1dc3f66dd9dd7a1
+  514  git commit -m flavours.md
+  515  git checkout milkshake-flavours
+  516  git cherry pick ab6b207b2cf7741770355fb2a1dc3f66dd9dd7a1
+  517  git cherry pick flavours.md
+  518  git reset --soft HEAD~1
+  519  git push origin milkshake-flavours --force
+  520  git revert HEAD
+  521  git push origin milkshake-flavours
+  522  git add flavours.md
+  523  git status
+  524  git commit -m flavours.md
+  525  cat flavours.md
+  526  git log
+  527  git checkout flavours.md
+  528  git checkout milkshake-flavours
+  529  git branch
+  530  git branch saved-commit
+  531  git checkout saved-commit
+  532  ls-a
+  533  ls -a
+  534  git branch -d saved-commit
+  535  git checkout milkshake-flavours
+  536  git branch -d saved comit
+  537  git branch -d saved commit
+  538  git branch
+  539  git branch -D saved-commit
+  540  git branch -d main
+  541  git branch
+  542  git log
+  543  cat flavours.md
+  544  git branch master
+  545  git branch
+  546  git checkout master
+  547  git log
+  548  ls -a
+  549  git branch
+  550  touch history
+  551  git branch
+  552  git branchh history
+  553  git checkout history
+  554  git branch history
+  555  git branch
+  556  history > history.txt
+  557  git commit -m "added history"
+  558  git branch history
+  559  git checkout history
+  560  git add history.txt
+  561  git status
+  562  git commit -m "added history"
+  563  history > history.txt
+  564  git log
+  565  git checkout milkshake-flavours
+  566  git checkout milkshake
+  567  git branch
+  568  git checkout milkshake-flavours
+  569  git add history.txt
+  570  git commit -m"added history"
+  571  cat history.txt
+  572  git history
+  573  git branch
+  574  git log
+  575  git checkout milkshake-flavours
+  576  git add history
+  577  git commit -m "added history"
+  578  git log
+  579  git checkout branch milkshake-flavours
+  580  git checkout milkshake-flavours
+  581  git add flavours.md
+  582  git mv flavours.md milkshake.md
+  583  git status
+  584  git commit -m milkshake.md
+  585  cat milkshake.md
+  586  git branch
+  587  git checkout history
+  588  ls -a
+  589  git -d history
+  590  git d- history
+  591  git rm history
+  592  git ls -a
+  593  ls -a
+  594  git log
+  595  git revert db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  596  git revert commit db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  597  git reset --hard db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  598  git log
+  599  pick commit db18bb7b7ac8e06c69b27f5f7f2743f075a4381e (HEAD -> history)
+  600  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  601  Date:   Mon Dec 23 21:22:16 2024 +0200
+  602  commit 4ef95554129bd2fae95edc4a6d6bbee46a23d056
+  603  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  604  Date:   Mon Dec 23 20:02:29 2024 +0200
+  605  commit c5808485a80b86eaca7eded1b61dfb2157cfab37
+  606  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  607  Date:   Mon Dec 23 19:59:20 2024 +0200
+  608  commit 4e6157fbb37a5f151ea63c8e78185df4d18c156f (master)
+  609  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  610  Date:   Sun Dec 22 18:18:05 2024 +0200
+  611  commit d30c7fe014a3f65a3fe752896194966a6366caf4
+  612  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  613  Date:   Sun Dec 22 18:08:09 2024 +0200
+  614  commit 619a3772af38637f5b9f2231376b5d8e29559010
+  615  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  616  Date:   Sun Dec 22 18:01:56 2024 +0200
+  617  (END)q
+  618  qgit log
+  619  git log
+  620  pick commit db18bb7b7ac8e06c69b27f5f7f2743f075a4381e (HEAD -> history)
+  621  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  622  Date:   Mon Dec 23 21:22:16 2024 +0200
+  623  commit 4ef95554129bd2fae95edc4a6d6bbee46a23d056
+  624  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  625  Date:   Mon Dec 23 20:02:29 2024 +0200
+  626  commit c5808485a80b86eaca7eded1b61dfb2157cfab37
+  627  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  628  Date:   Mon Dec 23 19:59:20 2024 +0200
+  629  commit 4e6157fbb37a5f151ea63c8e78185df4d18c156f (master)
+  630  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  631  Date:   Sun Dec 22 18:18:05 2024 +0200
+  632  commit d30c7fe014a3f65a3fe752896194966a6366caf4
+  633  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  634  Date:   Sun Dec 22 18:08:09 2024 +0200
+  635  commit 619a3772af38637f5b9f2231376b5d8e29559010
+  636  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  637  Date:   Sun Dec 22 18:01:56 2024 +0200
+  638  (END)
+  639  git revert commit db18bb7b7ac8e06c69b27f5f7f2743f075a4381e (HEAD -> history)
+  640  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  641  Date:   Mon Dec 23 21:22:16 2024 +0200
+  642  commit 4ef95554129bd2fae95edc4a6d6bbee46a23d056
+  643  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  644  Date:   Mon Dec 23 20:02:29 2024 +0200
+  645  commit c5808485a80b86eaca7eded1b61dfb2157cfab37
+  646  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  647  Date:   Mon Dec 23 19:59:20 2024 +0200
+  648  commit 4e6157fbb37a5f151ea63c8e78185df4d18c156f (master)
+  649  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  650  Date:   Sun Dec 22 18:18:05 2024 +0200
+  651  commit d30c7fe014a3f65a3fe752896194966a6366caf4
+  652  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  653  Date:   Sun Dec 22 18:08:09 2024 +0200
+  654  commit 619a3772af38637f5b9f2231376b5d8e29559010
+  655  Author: Naledi Shoko <katherinenaledi@gmail.com>
+  656  Date:   Sun Dec 22 18:01:56 2024 +0200
+  657  (END)
+  658  ok
+  659  git status
+  660  git log
+  661  ls -a
+  662  git revert commit 4ef95554129bd2fae95edc4a6d6bbee46a23d056
+  663  git revert 4ef95554129bd2fae95edc4a6d6bbee46a23d056
+  664  git log
+  665  git revert db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  666  git log
+  667  git rebase c5808485a80b86eaca7eded1b61dfb2157cfab37
+  668  git log 
+  669  git rebase db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  670  git log
+  671* 
+  672  git rebase -i db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  673  git log
+  674  git rebase -i c5808485a80b86eaca7eded1b61dfb2157cfab37
+  675  git log
+  676  git branch
+  677  git checkout milkshake-flavours
+  678  git log
+  679  rebase -i 1f34926542d573153676feb6b0c0ad0b67e87b62
+  680  git rebase -i 1f34926542d573153676feb6b0c0ad0b67e87b62
+  681  git rebase db18bb7b7ac8e06c69b27f5f7f2743f075a4381e
+  682  git rebase -i 1f34926542d573153676feb6b0c0ad0b67e87b62
+  683  git rebase -i 658e60f16c980363876b147ec38490e33430c65e
+  684  git log
+  685  git branch
+  686  git checkout milkshake-flavours
+  687  git add .
+  688  git log
+  689  git rebase -i c5808485a80b86eaca7eded1b61dfb2157cfab37
+  690  git rebase --abort
+  691  git log
+  692  git checkout milkshakes-flavours
+  693  branch
+  694  git branch
+  695  ls -a
+  696  git log
+  697  git rebase -i
+  698  git rebase 658e60f16c980363876b147ec38490e33430c65e
+  699  git log
+  700  git rebase -i
+  701  got rebase -i 658e60f16c980363876b147ec38490e33430c65e
+  702  git branch
+  703  git rebase -i 658e60f16c980363876b147ec38490e33430c65e
+  704  git log
+  705  git rebase -i 4e6157fbb37a5f151ea63c8e78185df4d18c156f
+  706  git log
+  707  git add milkshake.md
+  708  cat milkshake.md
+  709  ls -a
+  710  cat flavours.md
+  711  nano flavours.md
+  712  git branch
+  713  git checkout milkshake-flavours
+  714  git log
+  715  git status
+  716  git rm flavours.md
+  717  git log
+  718  flavours.md: needs merge
+  719  error: you need to resolve your current index first
+  720  git status
+  721  git branch
+  722  git checkout milkshake-flavours
+  723  git git status
+  724  git status
+  725  git git --continue
+  726  git rebase c--ontinue
+  727  git rebase --continue
+  728  git log
+  729  git ls -a
+  730  ls 0a
+  731  ls -
+  732  ls -a
+  733  cat milkshakes.md
+  734  cat milkshake.md
+  735  rm milkshakes.md
+  736  ls -a
+  737  rm task1.js.save
+  738  rm test.js
+  739  ls -a
+  740  rm task1.js
+  741  ls -a
+  742  cat milkshake.md
+  743  nano milkshake.md
+  744  cat milkshake.md
+  745  git commit -m git commit -m second commit
+  746  git commit -m second commit
+  747  git add milkshake.md
+  748  git status
+  749  git add milkshakes.md task1.js task1.js.save test.js
+  750  git status
+  751  git commit -m milkshake.md
+  752  git status
+  753  git log
+  754  git rebase --continue
+  755  git push
+  756  git status
+  757  git rebase --continue
+  758  git status
+  759  git rebase --continue
+  760  git status
+  761  git rerere
+  762  git status
+  763  git commit -m milkshake.md
+  764  git rerere
+  765  git log
+  766  git branch
+  767  git checkout history
+  768  ls -a
+  769  git log
+  770  git status
+  771  git commit --amend
+  772  git log
+  773  git checkout milkshake-flavours
+  774  git log --oneline
+  775  git rebase -i 658e60f
+  776  git rebase -i 4eb6157f
+  777  git rebase --continue
+  778  git rebase --abort
+  779  git log
+  780  git push --fprce
+  781  git push --force
+  782  git log --oneline
+  783  git rebase -i 658e60f
+  784  git log
+  785  cat milkshake.md
+  786  git checkout aec4870 -- milkshake.md
+  787  git log
+  788  git milkshake.md
+  789  git checkout ae4870 --milkshake.md
+  790  git checkout aec4870 -- milkshake.md
+  791  git log --oneline
+  792  git reflog
+  793  git checkout -b milkshake-recovered aec4870
+  794  git checkout milkshake-flavours
+  795  git merge milkshak-recovered
+  796  git rm flavours,md
+  797  git rm flavours.md
+  798  git checkout milkshake-flavours
+  799  git log
+  800  git log --oneline
+  801  git rebase -i 658e60f
+  802  git rebase --continue
+  803  git rebase --skip
+  804  git log --oneline
+  805  git statis
+  806  git status
+  807  git add milkshake.md
+  808  git statis
+  809  git status
+  810  git commit -m milkshake.md
+  811  cat milkshake.md
+  812  git commit -m milkshake.md
+  813  git add milkshake.md
+  814  git status
+  815  git log
+  816  git status
+  817  git commit -m  milkshake.md
+  818  ls -a
+  819  rm milkshakes.md
+  820  ls -a
+  821  rm task1.js
+  822  ls -a
+  823  rm task1.js.save
+  824  ls -a
+  825  rm package.json
+  826  ls -a
+  827  rm node_modules
+  828  rm test.js
+  829  ls -a
+  830  rm package-lock.json
+  831  ls -a
+  832  cat milkshake.md
+  833  nano milkshake.md
+  834  cat milkshake,md
+  835  cat milkshake.md
+  836  git commit -m milkshake.md
+  837  git add milkshake.md
+  838  git status
+  839  git commit -m milkshake.md
+  840  git log
+  841  git log --oneline
+  842  git rebase -i
+  843  git rebase -i 4e6157f
+  844  git status
+  845  git add milkshake.md
+  846  git status
+  847  git add milkshake.md
+  848  git status
+  849  git commit -m milkshake.md
+  850  cat milkshake.md
+  851  git rebase -i 4e6157f
+  852  git add .
+  853  git commit -m added more flavours
+  854  git commit -m "added more flavours"
+  855  git log
+  856  git -i
+  857  git rebase -i 4e6157f
+  858  git rm flavours.md
+  859  git rebase --continue
+  860  nano milkshake.md
+  861  cat milkshake.md
+  862  git commit -m "added more flavours"
+  863  git add milkshake.md
+  864  git commit -m "added more flavours"
+  865  git status
+  866  git rebase --edit-todo
+  867  git status
+  868  git rebase --continue
+  869  git rebase --skip
+  870  git branch master
+  871  git checkout master
+  872  git branch
+  873  git branch -D milkshake-flavours
+  874  git branch milkshake-flavours
+  875  git branch
+  876  git checkout milkshake-flavours
+  877  nano milkshakes.md
+  878  cat milkshakes.md
+  879  git status
+  880  git commit -m "added initial flavours"
+  881  git add milkshakes.md
+  882  git status
+  883  git log
+  884  git branch
+  885  git milkshake-flavours
+  886  git checkout milkshake-flavours
+  887  git add milkshakes.md
+  888  git log
+  889  git branch
+  890  git checkout master
+  891  git checkout milkshake-flavours
+  892  git add milkshakes.md
+  893  git log
+  894  git status
+  895  git commit -m milkshakes.md
+  896  git status
+  897  git log
+  898  git log --oneline
+  899  git revet 904dbd7
+  900  git revert 904dbd70c9cec72e70d6b2922b2da6cec91fbea5
+  901  git revert 904dbd7
+  902  git rebase --continue
+  903  git status
+  904  git rebase --continue
+  905  git log
+  906  git reset --hard commit 904dbd70c9cec72e70d6b2922b2da6cec91fbea5
+  907  git reset --hard 904dbd70c9cec72e70d6b2922b2da6cec91fbea5
+  908  git log
+  909  git reset --hard 9f1942071d98ee6f3221938a7fe62055b33d3089
+  910  git log
+  911  git add milkshakes.md
+  912  ls -a
+  913  git branch
+  914  nano milkshakes.md
+  915  git add commit -m added initial flavours
+  916  add milkshakes.md
+  917  git add milkshakes.md
+  918  git commit -m "initial flavours added"
+  919  git log
+  920  git checkout master
+  921  git log
+  922  ls -a
+  923  nano README.md
+  924  cat README.md
+  925  nano README.md
+  926  cat README.md
+  927  git add README.md 
+  928  git commit -m "random readme changes"
+  929  git log
+  930  git checkout history
+  931  ls -a
+  932  rm README.MD echo "booya" > README.md
+  933  rm README.md
+  934  ls -a
+  935  echo "booya" > README.d
+  936  ls -a
+  937  rm README.d
+  938  echo "booya" > README.md
+  939  git commit -m "rewrote readme"
+  940  git add README.md
+  941  ls -a
+  942  rm README.md
+  943  echo "booya" > README.md
+  944  git add .
+  945  git commit -m "rewrote readme"
+  946  git checkout master
+  947  ls -a
+  948  git log
+  949  git log --oneline
+  950  git hard--reset b2c2e62
+  951  git hard --reset b2c2e62
+  952  git reset --hard b2c2e62
+  953  git log 
+  954  git log --oneline
+  955  git hard --reset 9f19420
+  956  git reset --hard 9f19420
+  957  git log
+  958  git branch
+  959  git checkout history
+  960  ls -a
+  961  rm README.md
+  962  echo "booya" > README.md
+  963  cat README.md
+  964  git add README.md
+  965  git branch
+  966  git commit -m "rewrote readme"
+  967  git add README.md
+  968  git commit -m "rewrote history"
+  969  README.md
+  970  ls -a
+  971  git branch
+  972  ls -a
+  973  nano README.md
+  974  git add README.md
+  975  git commit -m "rewrote readme"
+  976  git rebase --abort
+  977  git add README.md
+  978  git commit -m "random readme changes"
+  979  git checkout history
+  980  ls -a
+  981  git add README.md
+  982  git commit -m "random readme changes"
+  983  cat README>md
+  984  cat README.md
+  985  git status
+  986  git add README.md
+  987  git status
+  988  rm md
+  989  git add README.md
+  990  git commit -m "random readme changes"
+  991  nano README.md
+  992  git add README.md
+  993  git commit -m "random readme changes"
+  994  git diff README.md
+  995  git commit -m "random readme changes"
+  996  git log
+  997  git checkout milkshake-flavours
+  998  ls -a
+  999  rm node modules
+ 1000  rm node_modules
+ 1001  rm -r node_modles
+ 1002  rm -r node_modules
+ 1003  ls -a
+ 1004  rm -r .git
+ 1005  yy
+ 1006  yyyy
+ 1007  y
+ 1008  ls -a
+ 1009  sudo rm -rf .git
+ 1010  ls -a
+ 1011  sudo rm -rf . .
+ 1012  git log
+ 1013  git branch
+ 1014  git init
+ 1015  git branch
+ 1016  ls -a
+ 1017  git init
+ 1018  git branch
+ 1019  git status
+ 1020  git log
+ 1021  cat README.md
+ 1022  git add README.md
+ 1023  nano README.md
+ 1024  git add README.md
+ 1025  git commit -m "initial commit"
+ 1026  git log
+ 1027  nano README.md
+ 1028  cat README.md
+ 1029  git commit -m "second commit"
+ 1030  git add README.md
+ 1031  git commit -m "second commit"
+ 1032  git log
+ 1033  nano README.md
+ 1034  cat READ.md
+ 1035  cat README.md
+ 1036  git add README.md
+ 1037  git commit -m "third commit"
+ 1038  git log
+ 1039  git checkout e5001b464837ddb00a8b4713a4858bb9fe52fa48
+ 1040  cat README.md
+ 1041  git log
+ 1042  git checkout master
+ 1043  git log
+ 1044  git branch
+ 1045  git branch milkshake-flavours
+ 1046  git branch
+ 1047  git checkout milkshake-flavours
+ 1048  cat milkshakes.md
+ 1049  cat milkshake.md
+ 1050  git status
+ 1051  git add milkshake.md
+ 1052  git commit -m "added initial flavours"
+ 1053  git log
+ 1054  git checkout master
+ 1055  git log
+ 1056  git checkout milkshake-flavours
+ 1057  git log
+ 1058  git branch history
+ 1059  git branch
+ 1060  git checkout history
+ 1061  git log
+ 1062  git status
+ 1063  git checkout milkshake
+ 1064  git checkout milkshake-flavours
+ 1065  git status
+ 1066  git ls -a
+ 1067  ls -a
+ 1068  git checkout history
+ 1069  ls -a
+ 1070  cat README.md
+ 1071  git rm README.md
+ 1072  ls -a
+ 1073  git log
+ 1074  git log --oneline
+ 1075  git checkout 6893d505c6c6ff32ba1e9342cbb112f90a691c7e
+ 1076  git log
+ 1077  git checkout history
+ 1078  git status
+ 1079  git log
+ 1080  git checkout 6893d505c6c6ff32ba1e9342cbb112f90a691c7e 
+ 1081  git log
+ 1082  git branch
+ 1083  git checkout history
+ 1084  git lo
+ 1085  git log
+ 1086  git checkout 6893d505c6c6ff32ba1e9342cbb112f90a691c7e 
+ 1087  git checkout history
+ 1088  git log
+ 1089  git branch
+ 1090  git resert --hard 6893d505c6c6ff32ba1e9342cbb112f90a691c7e
+ 1091  git reset --hard 6893d505c6c6ff32ba1e9342cbb112f90a691c7e
+ 1092  git log oneline
+ 1093  git log --oneline
+ 1094  git checkout milkshake-flavours
+ 1095  git checkout histroy
+ 1096  git checkout history
+ 1097  history > history.txt
